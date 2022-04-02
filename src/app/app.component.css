@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Righteous&family=Yantramanav&display=swap');
+
+.cuadro_1
+{
+  box-shadow: 0 0 15px #00000041;
+  width: 100%;
+  display: inline-block;
+  margin: 5%;
+  height: 100%;
+  background-image: url('./454654.png');
+  backdrop-filter: blur(8px);
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.cuadro_2
+{
+  box-shadow: 0 0 15px #00000041;
+  background-image: url("./ab5b5c7a-edad-4501-a367-e08ac29fc070.jpg");
+
+  width: 100%;
+  display: inline-block;
+  margin: 5%;
+  cursor: pointer;
+  height: 100%;
+  background-size: cover;
+ backdrop-filter: blur(8px);
+  transition: 0.3s;
+}
+
+
+.cuadro_1:hover
+{
+
+ transition: 0.3s;
+ z-index: 15;
+ transform: scale(1.1);
+ backdrop-filter: brightness(1.5);
+}
+
+.cuadro_2:hover
+{
+
+ transition: 0.3s;
+ transform: scale(1.1);
+ z-index: 15;
+ backdrop-filter: brightness(1.5);
+}
+
+li
+{
+  font-family: 'Yantramanav', sans-serif;
+  text-shadow: 0 0 5px #000;
+  color:#fff;
+}
+
+
+.apli_web
+{
+  display: flex;
+  justify-content: center;
+  margin-left: 4%;
+  flex-wrap: wrap;
+  width:28%;
+  height: 690px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.452);
+  background: rgba(0, 0, 0, 0.137);
+  backdrop-filter:blur(5px)
+}
+
+.compu
+{
+  width: 95%;
+  margin-top:15px;
+
+
+  height: 250px;
+  background-image: url('./546.png');
+  background-size:cover
+}
+
+.cel{
+  width: 250px;
+  margin-top:15px;
+  height: 350px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.cel_1
+{
+  width: 250px;
+  margin-top:15px;
+  height: 450px;
+  border-radius: 5px;
+  background-image: url('./apllll.PNG');
+  background-size: 100%;
+
+}
+
+.cel_2
+{
+  width: 250px;
+  margin-top:15px;
+  height: 450px;
+  border-radius: 5px;
+  background-image: url('./7bef9be1-0921-4aab-a418-e7cd3fae51c4.jpg');
+  background-size: 100%;
+
+}
+
+h1
+{
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+  font-size:60px;
+  font-family: 'Righteous', cursive;
+}
+h2{
+  font-family: 'Yantramanav', sans-serif;
+  text-shadow: 0 0 5px #000;
+  color:#fff;
+}
+
+.apli_android_1
+{
+  width: 250px;
+  border-radius:5px;
+  margin-left:10%;
+  height: 350px;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.397);
+}
